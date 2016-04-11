@@ -8,7 +8,7 @@ puts "How many people do you have? (Must be greater than 6)"
 initial_num = gets.chomp.to_i
 
 1.upto(initial_num) do |n|
-  waiting.enqueue("worker#{n}")
+  waiting.enqueue(rand(100..999))
 end
 
 puts "\nInitial Waiting List #{waiting.store}"
