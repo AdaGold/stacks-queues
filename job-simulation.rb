@@ -11,5 +11,7 @@
 # the back of the waiting list in the order that they are fired. This process
 # will continue for every three-month interval.
 
+##make shorter & in bullet points
+
 require './Stack.rb'
 require './Queue.rb'
