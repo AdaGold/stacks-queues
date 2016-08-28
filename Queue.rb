@@ -1,4 +1,5 @@
 class Queue
+
   def initialize
     @store = Array.new
   end
@@ -22,6 +23,11 @@ class Queue
   def empty?
     return @store.length == 0
   end
+
+  def to_s
+    return "FRONT...#{@store}...BACK"
+  end
+
 end
 
 # Testing
