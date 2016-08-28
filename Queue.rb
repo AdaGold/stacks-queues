@@ -1,6 +1,7 @@
 class Queue
+  attr_reader :queue
   def initialize
-    @queue = queue
+    @queue = Array.new # class variable, why not array? #needs to be an array, changed
   end
   
   def enqueue(element)
@@ -8,7 +9,7 @@ class Queue
   end
  
   def dequeue
-   return  @queue.shift(element)
+   return  @queue.shift
   end
 
   def front

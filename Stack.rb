@@ -4,8 +4,9 @@
 
 # uses an array to create a virtual stack (your array methods have no power here)
 class Stack
+  attr_reader :store
   def initialize
-    @store = Array.new # holds elements 
+    @store = Array.new # holds elements that are working
   end
   
   def push(element)
