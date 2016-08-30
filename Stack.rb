@@ -1,5 +1,3 @@
-# implementing a Stack : using rules of the Stack class. We created the rules.
-
 class Stack
   def initialize
     @store = Array.new
@@ -23,5 +21,10 @@ class Stack
 
   def empty?
     return size == 0 # return a boolean # @store.empty? # @store.length == 0
+  end
+
+  def print
+    puts "People hired:"
+    puts @store
   end
 end
