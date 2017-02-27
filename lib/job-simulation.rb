@@ -2,7 +2,7 @@ require_relative 'Stack'
 require_relative 'Queue'
 
 class JobSimulation
-  attr_reader :employed, :waiting, :roll, :waitlist
+  attr_reader :employed, :waiting, :waitlist
 
   def initialize (jobs_available, job_seekers)
     #job_seekers must be larger than jobs_available
