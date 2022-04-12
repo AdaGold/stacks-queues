@@ -2,7 +2,7 @@
 class EmptyListError(Exception):
     pass
 
-# Defines a node in the singly linked list
+# Defines a node in the doubly linked list
 class Node:
     def __init__(self, value, next_node = None, previous_node = None):
         self.value = value
